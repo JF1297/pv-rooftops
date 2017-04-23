@@ -15,6 +15,14 @@ Progress:
 *Downloaded 2011 US Forest Service Tree Canopy 2011 Edition
 *After un-zipping, the dataset is 17+ GB
 *Description (from the included html file in the zipped folder):  the National Land Cover Database 2011 (NLCD2011) USFS percent tree canopy product was produced with the primary goal of generating current, consistent, and seamless national land cover, percent tree canopy, and percent impervious coer at medium spatial resolution.  Tree canopy values range from 0 to 100 percent.  The analytic tree canopy layer was produced using a Random forests regression algorithm.
+*Description (From readme): "The TCC 2011 dataset has two layers:  percent
+tree canopy cover and standard error. For layer one, the percent tree canopy cover layer, the pixel values range from
+0 to 100 percent and represent the percent of the ground covered by a vertical projection of tree canopies.
+For layer two, the standard error layer, the pixel values range from 0 to 45 percent. The standard error represents the
+model uncertainty associated with the corresponding pixel in the tree canopy cover layer. The percent tree
+canopy cover layer was produced using a Random Forests (trademarked by Leo Breiman and Adele Cutler) regression
+algorithm and the standard error layer was calculated from the variance of the canopy cover estimates from the
+random forest regression trees."
 
 
 
