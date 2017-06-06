@@ -2,8 +2,7 @@ import csv
 
 import psycopg2
 
-mydb = psycopg2.connect(host='',
-                        dbname='', user='', password='')
+mydb = psycopg2.connect(host='', dbname='', user='', password='')
 cursor = mydb.cursor()
 print ("Start")
 i = 0
